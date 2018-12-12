@@ -1,0 +1,107 @@
+header {
+    top: 0;
+    background-color:lightgreen;
+    position:fixed;
+    width:99%;
+    text-transform: uppercase;
+    
+}
+header figure img{
+    margin-top: 30px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/2.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+nav {
+    margin-top: 50px;
+    
+    padding: 5px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 30px;
+    padding: 10px 10px 10px;
+}
+
+header figure img {
+    float: right;
+    margin-left: 0px;
+    position:absolute;
+    top:10px;
+    bottom:2px;
+    padding:10px 10px 10px;
+
+}
+body {
+    background-color:whitesmoke;
+}
+h1 {
+    
+    text-align: center;
+    padding:30px;
+}
+article1 {
+    width:600px;
+    height:700px;
+    background:purple;
+    padding:5px;
+    margin-left: 10px;
+    margin:0px;
+}
+article2 {
+    width:600px;
+    height:700px;
+    background: pink;
+    padding:5px;
+    margin-left: 10px 10px;
+    margin:0px;
+}
+article3 {
+    width:600px;
+    height:700px;
+    background: greenyellow;
+    padding:5px;
+    margin-left: 10px;
+    margin:0px;
+}
+section {
+    display: flex;
+
+}
+img {
+    float:right;
+}
+footer {
+    float:right;
+    height:50px;
+    background-color:lightgreen;
+    width:1567px;
+    height:50px;
+}
